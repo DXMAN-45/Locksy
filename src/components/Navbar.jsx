@@ -8,7 +8,7 @@ const Navbar = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <nav className="relative z-50 w-full bg-[hsl(219.38deg_33.33%_62.35%)] px-5 sm:px-8">
+    <nav className="relative z-50 w-full bg-[#162556] px-5 sm:px-8">
 
       <div className="mx-auto flex min-h-[65px] h-[9vh] max-w-7xl items-center justify-between">
 
