@@ -49,7 +49,7 @@ const Navbar = () => {
 
       {/* Mobile Dropdown */}
       {isOpen && (
-        <div className="absolute left-0 top-full w-full bg-[hsl(219.38deg_33.33%_62.35%)] shadow-lg sm:hidden">
+        <div className="absolute left-0 top-full w-full  bg-[#162556] shadow-lg sm:hidden">
           <ul className="flex flex-col items-center gap-6 py-6">
             <li>
               <Link onClick={closeMenu} className="navbaratag" to="/">Home</Link>
